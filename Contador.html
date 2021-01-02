@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador do Ano</title>
+    <link rel="stylesheet" href="Style do meu Contador.css">
+    <style>
+         *, 
+      *:after,
+      *:before {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+      }
+      button {
+        cursor: pointer;
+      }
+      
+      button:active {
+        transform: scale(0.95);
+      }
+      
+      input:focus,
+      button:focus {
+        outline: none;
+      }
+      body{  
+        background-position: center center;      
+        background-image: url('https://images.pexels.com/photos/1190298/pexels-photo-1190298.jpeg?cs=srgb&dl=pexels-wendy-wei-1190298.jpg&fm=jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: rgb(104, 3, 104);
+      }
+      h1#h1{
+          font:normal 60pt arial;
+          color:rgb(41, 1, 41);
+          text-align: center;
+          padding: 80px;
+      }
+      section{
+          background-color: rgb(0, 0, 0);
+          box-shadow: 5px 10px 10px 5px black;
+          border-radius:300px 300px 150px 150px;
+          width:500px;
+          margin:auto;
+      }
+      footer{
+          background-color: rgb(108, 23, 182);
+          border-top: rgb(0, 0, 0);
+          border-radius: 5px;
+          padding-left: 500px;
+          padding-top: 20px;
+      }
+      p#copy{
+        text-align: center;
+        padding-top: 5px;
+        padding-right: 500px;
+      }
+      div#redsoc{
+        padding-top: 150px;
+      }
+      a#face{
+          color:black;
+          font:normal 15pt arial;
+          text-decoration: none;
+          padding-left: 5px;
+      }
+      a#insta{
+        color:black;
+        font:normal 15pt arial;
+        text-decoration: none;
+        padding-left: 5px;
+      }
+      a#twitter{
+        color:black;
+        font:normal 15pt arial;
+        text-decoration: none;
+        padding-left: 5px;
+      }
+      p{
+          font:normal 10pt arial;
+          color:rgb(0, 0, 0);
+          text-align: center;
+          
+      }
+      div#dias{
+           font:normal 20pt arial;
+           color:rgb(104, 3, 104);
+           text-align: center;
+      }
+      div#dias3{
+        font:normal 20pt arial;
+        color:rgb(100, 4, 100);
+        text-align: center;
+      }
+ main{
+    text-align: center;
+}
+h1#Para{
+    font:normal 60pt arial;
+    color:rgb(31, 0, 31);
+}
+h1#O{
+    font:normal 50pt arial;
+    color:rgb(31, 0, 31);
+}
+h1#Ano{
+    font:normal 50pt arial;
+    color:rgb(31, 0, 31);
+}
+div#relogio{
+    text-align: center;
+    align-items: center;
+}
+    </style>
+</head>
+<body onload="carregar()">
+    <img src="C:\Users\Leandro\Downloads\2021-new-year-purple-party-background-happy-new-year-2021-2021-party-background-2021-concepts.jpg" alt="Ano novo" width="1400" height="300">
+    <header>
+        <h1 id="h1">Ainda</h1>
+    </header>
+    <section>
+       <div id="dias"></div>
+       <div id="dias2"></div>
+       <div id="relogio"><img src="C:\Users\Leandro\Pictures\relogio.gif" alt="Rélogio" width="120"></div>
+       <div id="dias3"></div>
+    </section>
+    <main> 
+         <h1 id="Para">Para acabar</h1>
+         <h1 id="O">O</h1>
+         <h1 id="Ano">Ano</h1>
+    </main>
+    <footer>
+        <div id="redsoc"></div>
+     <img src="https://upload.wikimedia.org/wikipedia/commons/5/58/Instagram-Icon.png" alt="Instagram.png" width="30"><a href="https://www.instagram.com/_luiz.leandro_/?hl=pt-br" target="blank" id="insta">Instagram</a>
+     <img src="https://image.flaticon.com/icons/png/512/124/124021.png" alt="Twitter.png"width="30"><a href="https://twitter.com/Queriaserobatma" target="_blank" id="twitter">Twitter</a>
+     <img src="https://cdn.icon-icons.com/icons2/2037/PNG/128/facebook_fb_media_social_icon_124262.png" alt="Instagram.png" width="30"><a href="https://www.facebook.com/leandro.luiz.3591/" target="blank"
+     id="face">Facebook</a>
+    </div>
+     <div></div>
+     <br /><p id="copy">&copy;Leandro Exercices.</p>
+    </footer>
+    <script>
+        function carregar(){
+    const data = new Date();
+    let dias = data.getDate();
+    const conta = Number(365 - dias);
+    const dia = document.querySelector("#dias");
+    const dia2 = document.querySelector("#dias2");
+    const dia3 = document.querySelector("#dias3");
+
+      dia.innerHTML = `Falta`
+      dia3.innerHTML = `${conta} dias` 
+      
+}
+    </script>
+    <script src="Script do meu Contador.js"></script>
+</body>
+</html>
