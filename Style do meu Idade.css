@@ -1,0 +1,155 @@
+body {
+    background-color: #033970;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+      *, 
+      *:after,
+      *:before {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+      }
+      footer{
+          background-color: rgb(3, 3, 83);
+            border-radius: 10px;
+            width: auto;
+            padding-top: 40px;
+            padding-left: 500px;
+      }
+      div#redsoc{
+        padding-top: 150px;
+      }
+      p{
+          text-align: relative;
+      }
+      p#copy{
+          text-align: center;
+          padding-top:60px;
+          padding-right: 550px;
+          color:rgb(59, 57, 57)
+      }
+      section{
+          background-color: white;
+          border-radius: 15px;
+          box-shadow: 5px 5px 5px 10px black;
+          width:600px;
+          margin:auto;
+          text-align:initial;  
+          padding-top: 10px; 
+      }
+      input#butao{
+           width: 60px;
+           padding-bottom: 3px;
+           font-family:Arial, Helvetica, sans-serif;
+           background-color: white;
+      }
+      p#butoni{
+            padding-left: 10px;
+            padding-top: 10px;
+           }
+    p#p1{
+        color:black;
+        font:normal 16pt arial;
+        padding-left: 15px;
+    }
+    p#p2{
+        color: black;
+        font:normal 16pt arial;
+    }
+    p#sexo{
+        color: black;
+        font:normal 14pt arial;
+        padding-left: 15px;
+    }
+    input#butao{
+        text-align: top;
+    }
+    h1{
+        color:rgb(255, 255, 255);
+        font:normal 20pt arial;
+        text-align: center;
+        padding-bottom: 20px;
+        text-shadow: black 5px 5px 5px ;
+    }
+    a#face{
+        color:black;
+        font:normal 15pt arial;
+        text-decoration: none;
+        padding-left: 5px;
+    }
+    a#insta{
+      color:black;
+      font:normal 15pt arial;
+      text-decoration: none;
+      padding-left: 5px;
+    }
+    a#twitter{
+      color:black;
+      font:normal 15pt arial;
+      text-decoration: none;
+      padding-left: 5px;
+    }
+    div#res{
+        font:normal 15pt arial;
+        text-align: center;
+    }
+    div#espaço1{
+        padding-top: 70px;
+    }
+    div#espaço2{
+        padding-top: 70px;
+    }
+    div#erro{
+        color:rgb(255, 0, 0);
+        text-align: center;
+        padding-top: 20px;
+    }
+    main{
+        padding-bottom:10px;
+        background-color: white;
+        border-radius: 5px 5px 5px;
+        padding-left: 15px;
+        text-align: center;
+        width: 400px;
+        margin: auto;
+        font:normal 17pt arial;
+        box-shadow: 5px 5px 5px 10px black;
+    }
+    div#rest4{
+         text-align: center;
+         font:normal 17pt arial;
+    }
+    button#butone{
+        background-color: blue;
+        font:normal 15pt arial;
+    }
+    div#main1{
+        padding-bottom: 50px;
+    }
+    p#datesi{
+        font:normal 15pt arial;
+        padding-left: 14px;
+    }
+    input#dia{
+        font:normal 9pt arial;
+        padding-left: 5px;
+        width: 40px;
+    }
+    input#idade{
+        padding-left: 10px;
+        width: 60px;
+    }
+    p#aloc{
+        color: black;
+        font:normal 14pt arial;
+        padding-left: 15px;
+    }
+    input#mes{
+        width: 40px;
+    }
+    div#imog{
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
